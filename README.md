@@ -1,5 +1,5 @@
 # lazy-MCU-CLI
-Some bad shell scripts to wrap and manage MCI instances.
+Some bad shell scripts to wrap and manage MCI instances. If something is worth doing, it's worth doing badly. 
 
 # NOT EVEN REMOTELY DONE, NOTHING WORKS RIGHT NOW, COME BACK WHEN THIS MESSAGE IS GONE
 
