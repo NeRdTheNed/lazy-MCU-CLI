@@ -27,7 +27,7 @@ echo
 
 # note: this will always generate a file named "pack.xml" regardless of what (or if anything) was downloaded
 # todo: find a better way to do it
-curl $USERIN >| $DIR/libraries/pack.xml
+curl -L $USERIN >| $DIR/libraries/pack.xml
 
 echo
 echo "Download done!"
@@ -49,12 +49,15 @@ then
 		# not sure if the format demands it be consistant but every one I've check works
 		cutServerID=$(echo $result | cut -d'"' -f 2)
 		
+		# debug
+		# echo $result
+		# echo "$cutServerID"
 		listOfServIDs+=("$cutServerID")
 		
 	done < <(grep -F "Server id=" $DIR/libraries/pack.xml)
 	
 	# if there's a thing
-	if [ "${#listOfServIDs[@]}" -ge 1 ]; then
+	if [ "${#listOfServIDs[@]}" -gt 0 ]; then
 	
 		echo "Server IDs found: ${#listOfServIDs[@]}"
 		echo "Choose which one you'd like to use!"
