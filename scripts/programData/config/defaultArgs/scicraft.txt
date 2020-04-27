@@ -1,0 +1,3 @@
+SciCraft's arguments as of 04/07/2020. Optimised for redstone and piston heavy workloads, in 1.12. Found on Jelly's server, https://discordapp.com/channels/602796788608401408/602805971391217683/696840186306363393
+-XX:+UnlockExperimentalVMOptions -XX:HeapBaseMinAddress=1 -XX:+UseG1GC -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35 -XX:+AlwaysPreTouch -XX:+ParallelRefProcEnabled
+-Xmx4094M -Xms4094M

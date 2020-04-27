@@ -1,0 +1,3 @@
+Jelly's "just let Java do its thing" ZGC options, for a recommended 3GB of RAM. Works best in Java 14+. Mostly aimed at standalone client performance, but will also work very well in servers. Would recommend in most setups running Java 14+ and any of Jelly's mods.
+-XX:+UnlockExperimentalVMOptions -XX:+UseZGC
+-Xmx3G -Xms3G

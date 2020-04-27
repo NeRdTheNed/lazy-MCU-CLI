@@ -1,0 +1,3 @@
+Mojang's "recommended" (in heavy quotation marks) server arguments from https://www.minecraft.net/en-us/download/server.
+
+-Xmx1024M -Xms1024M

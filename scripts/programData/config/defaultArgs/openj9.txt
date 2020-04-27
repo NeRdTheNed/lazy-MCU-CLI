@@ -1,0 +1,3 @@
+Arguments that work better in OpenJ9, in very specific circumstances. Don't use these in a normal Hotspot VM based JVM. Taken from https://steinborn.me/posts/tuning-minecraft-openj9/.
+-Xgc:concurrentScavenge -Xgc:dnssExpectedTimeRatioMaximum=3 -Xgc:scvNoAdaptiveTenure -Xdisableexplicitgc
+-Xms4096M -Xmx4096M -Xmns2048M -Xmnx3276M 
