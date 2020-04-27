@@ -1,2 +1,6 @@
 *.DS_Store
 scripts/_blank.txt
+scripts/programData/libraries/instaledPack/
+scripts/programData/config/packConfig.txt
+scripts/programData/libraries/MCU-CLI-latest.jar
+scripts/programData/libraries/pack.xml
